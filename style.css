@@ -1,0 +1,69 @@
+body {
+  background-color: #fff;
+  font-family:arial,sans-serif;
+  text-align: center;
+}
+
+.container {
+  margin-top: 100px;
+  display: inline-block;
+}
+
+.left, .right {
+  width: 500px;
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+
+.left {
+  background-image: url('images/left.jpg');
+  color: #f84e62;
+  position: relative;
+}
+
+.left .vs {
+  width: 70px;
+  height: 70px;
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  right: -35px;
+  top: 50%;
+  margin-top: -35px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.left .vs span {
+  margin-top: 20px;
+  display: block;
+}
+
+.right {
+  background-image: url('images/right.jpg');
+  color: #528aff;
+}
+
+.count {
+  background-color: #fff;
+  display: block;
+  margin: 380px auto 0 auto;
+  width: 150px;
+  padding: 10px;
+  font-size: 28px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.count img {
+  vertical-align: top;
+  margin-right: 5px;
+}
+
+.count span {
+  line-height: 37px;
+}
