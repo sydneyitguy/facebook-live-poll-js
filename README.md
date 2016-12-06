@@ -1,7 +1,8 @@
-# Simplest Scripts for Facebook Live Poll
+# The Simplest Scripts for Facebook Live Poll
 
  - Portable, JS only implementation
  - Serverless, you can use your own PC or Mac to stream the live poll
+ - Easy, you only need to change 2 lines of code
  - Free
 
 
@@ -42,7 +43,7 @@ Select `BrowserSource` from OBS, and `index.html` file you donwloaded from `Step
   var VIDEO_ID = '1234567890'; // Video ID from `Step 7`
 ```
 
- - Don't forget you refresh your BrowseSource on your OBS
+ - Don't forget you refresh your BrowserSource on your OBS
  - You can change the images whatever you like (just replace `left.jpg` and `right.jpg` in `/images` directory)
 
 
